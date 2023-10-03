@@ -1,3 +1,12 @@
 {
-    "image": "docker-staging-public.packages.idmod.org/emodpy-hiv-calibra:7967d10"
+    "image": "docker-staging-public.packages.idmod.org/emodpy-hiv-calibra:7967d10",
+    "customizations": {
+        "vscode": {
+          "extensions": [
+            "ms-toolsai.jupyter",
+            "ms-toolsai.jupyter-renderers",
+            "ms-python.python"
+          ]
+        }
+      }
 }
